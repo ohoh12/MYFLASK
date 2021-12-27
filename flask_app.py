@@ -22,7 +22,11 @@ def about():
 #3
 @app.route("/show1")
 def show1():
-    return render_template('img_test1.html', image_file='img/pr.png')
+    return render_template('img_test1.html', image_file='img/piano.png')
+
+@app.route("/show2")
+def show2():
+    return render_template('show2.html', image_file='img/ping.png')
  
 #4
 # 기상청 날씨
